@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "AuctionPicFlow"
-  text: "专注拍卖行业\n图片高效工作流"
-  tagline: "赋能拍卖业公司图片资产全面升级\n提供 24 小时内快速技术支持与深度定制开发服务"
+  text: "大模型赋能拍卖业\n智能图片高效工作流"
+  tagline: "AI协助拍卖业公司图片资产全面升级\n提供 24 小时内快速技术支持与深度定制开发服务"
   image:
     light: /icon_master.png
     dark: /icon_master.png
