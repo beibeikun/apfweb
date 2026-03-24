@@ -1,0 +1,214 @@
+/* —— 首页 Hero：标题渐变（VitePress 内置变量） —— */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #4f46e5 20%, #06b6d4 55%, #56dde7 90%);
+}
+
+/* —— 首页 Hero：放大右侧 GUI、截图右对齐（标题/副标题沿用 VitePress 默认字号） —— */
+@media (min-width: 960px) {
+  .VPHero.has-image .image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .VPHero.has-image .image-container {
+    width: 100%;
+    max-width: min(560px, 100%);
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: 0;
+    transform: translate(0, -8px);
+  }
+
+  .VPHero.has-image .image-bg {
+    width: 360px;
+    height: 360px;
+  }
+
+  .VPHero.has-image .image-src {
+    max-width: 650px !important;
+    max-height: 650px !important;
+  }
+}
+
+/* 平板：略增大预览图 */
+@media (min-width: 640px) and (max-width: 959px) {
+  .VPHero.has-image .image-container {
+    width: min(100%, 440px);
+    height: 440px;
+  }
+
+  .VPHero.has-image .image-bg {
+    width: 280px;
+    height: 280px;
+  }
+
+  .VPHero.has-image .image-src {
+    max-width: 320px !important;
+    max-height: 320px !important;
+  }
+}
+
+/* —— 「APF的优势」与特性卡片：避免重叠、留出间距 —— */
+.home-hero-disclaimer {
+  max-width: 1152px;
+  margin: 0.75rem auto 0;
+  padding: 0 24px 1.25rem;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  color: var(--vp-c-text-3);
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .home-hero-disclaimer {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .home-hero-disclaimer {
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 1.75rem;
+  }
+}
+
+.home-features-title-wrap {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 1.5rem 24px 0;
+  margin-bottom: 1.75rem;
+  text-align: center;
+}
+
+.home-features-title {
+  margin: 0;
+  padding-bottom: 0.25rem;
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--vp-c-text-1);
+}
+
+@media (min-width: 768px) {
+  .home-features-title-wrap {
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .home-features-title-wrap {
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 2rem;
+    margin-bottom: 2.25rem;
+  }
+}
+
+.home-feature-carousel {
+  box-sizing: border-box;
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 24px 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.home-feature-carousel__viewport {
+  width: 100%;
+  aspect-ratio: 202 / 165;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.home-feature-carousel__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.home-feature-carousel__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 0.75rem;
+  width: 100%;
+}
+
+.home-feature-carousel__tab {
+  margin: 0;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    color 0.2s,
+    border-color 0.2s,
+    background-color 0.2s;
+}
+
+.home-feature-carousel__tab:hover {
+  color: var(--vp-c-text-1);
+  border-color: var(--vp-c-brand-1);
+}
+
+.home-feature-carousel__tab--active {
+  color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+}
+
+@media (min-width: 768px) {
+  .home-feature-carousel {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 2rem;
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .home-feature-carousel {
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 2.25rem;
+  }
+}
+
+.VPHomeFeatures .feature-footnote {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.85em;
+  font-weight: 500;
+  color: var(--vp-c-text-3);
+}
+
+/* 首页特性卡片标题：更大、更粗、深蓝色 */
+.VPHomeFeatures .VPFeature .title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0b2f6b;
+}
+
+/* 特性区与标题之间再留一层保险间距 */
+.VPHome .VPHomeFeatures {
+  margin-top: 0.25rem;
+}
