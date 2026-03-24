@@ -33,8 +33,8 @@ features:
     details: 支持自定义图片处理策略，满足各种复杂场景业务需求。
   - title: 跨平台兼容
     details: 支持Windows与macOS，轻松部署，无缝协同，打破系统壁垒。
-  - title: 多线程加速
-    details: 基于并发处理架构，大幅提升文件处理与数据传输速度，显著优化用户体验。
+  - title: 大模型支持
+    details: 支持接入大模型，快速完成拍品改名/核对等复杂业务。
   - title: 服务器备份保障
     details: 提供高可靠性服务器部署备份机制，保障数据安全与可恢复性。<span class="feature-footnote">*该功能正在开发中，具体上线时间请关注后续公告</span>
 ---
