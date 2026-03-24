@@ -17,7 +17,7 @@ type RoadmapPhase = {
 
 const phases: RoadmapPhase[] = [
   {
-    period: '已上线',
+    period: '26 年 Q1 季度早期开发',
     title: '核心工作流与基础能力',
     status: 'shipped',
     items: [
@@ -29,7 +29,7 @@ const phases: RoadmapPhase[] = [
     ],
   },
   {
-    period: '已上线',
+    period: '26 年 Q1 季度测试版开发',
     title: '实用工具与仓库管理',
     status: 'shipped',
     items: [
@@ -48,7 +48,7 @@ const phases: RoadmapPhase[] = [
       {text: '完善更多实用功能' },
       {text: 'windows端应用测试与优化' },
       {text: '日语页面优化补全' },
-      {text: 'v1.0.0 版本发布' },
+      {text: 'v1.0.0 windows / mac 版本发布' },
     ],
   },
   {
@@ -58,21 +58,31 @@ const phases: RoadmapPhase[] = [
     items: [
       { text: '更多图片处理策略与批处理编排' },
       { text: '性能与稳定性持续优化' },
+      { text: '视觉效果优化' },
     ],
   },
   {
     period: '26 年 Q3 季度及以后',
-    title: '计划开发',
+    title: '已计划开发',
     status: 'planned',
     items: [
-      { text: '服务器端部署与备份机制' },
+      { text: '仓库备份/整合/维护机制' },
       { text: '与工作流/业务系统的对接与定制能力' },
+    ],
+  },
+  {
+    period: '27 年 Q1 季度及以后',
+    title: '研讨中',
+    status: 'planned',
+    items: [
+      { text: '更多语言支持' },
+      { text: '网页端部署与应用，实现云端跨平台使用' },
     ],
   },
 ]
 
 const statusLabel: Record<RoadmapStatus, string> = {
-  shipped: '已交付',
+  shipped: '已上线',
   in_progress: '进行中',
   planned: '计划中',
 }
