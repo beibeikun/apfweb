@@ -13,13 +13,13 @@ outline: deep
 
 对应平台：win_x64
 
-[下载（win_x64）](https://github.com/beibeikun/APF_web/releases/latest/download/APF_win_x64.zip)
+[下载（win_x64）](https://github.com/beibeikun/apfweb/releases/latest/download/APF_win_x64.zip)
 
 ## macOS ARM64
 
 对应平台：mac_arm
 
-[下载（mac_arm）](https://github.com/beibeikun/APF_web/releases/latest/download/APF_mac_arm.zip)
+[下载（mac_arm）](https://github.com/beibeikun/apfweb/releases/latest/download/APF_mac_arm.zip)
 
 ## 安装与激活提示
 

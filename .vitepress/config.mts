@@ -36,14 +36,14 @@ export default defineConfig({
   title: 'AuctionPicFlow',
   description:
     '专注拍卖业服务的图片管理工作流工具，赋能拍卖企业图片资产全面升级',
-  base: '/APF_web/',
+  base: '/apfweb/',
 
   head: [
     [
       'link',
       {
         rel: 'icon',
-        href: '/APF_web/app_icon_master_1024.png',
+        href: '/apfweb/app_icon_master_1024.png',
         type: 'image/png',
       },
     ],
@@ -78,7 +78,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/beibeikun/APF_web' },
+      { icon: 'github', link: 'https://github.com/beibeikun/apfweb' },
     ],
 
     footer: {

@@ -34,4 +34,4 @@ AuctionPicFlow（APF）是一款面向拍卖行业的图片管理工作流工具
 - [客户端下载](/download)
 - [激活密钥/许可证](/activation)
 - [使用教程](/tutorials/)
-- [GitHub 仓库](https://github.com/beibeikun/APF_web)
+- [GitHub 仓库](https://github.com/beibeikun/apfweb)
