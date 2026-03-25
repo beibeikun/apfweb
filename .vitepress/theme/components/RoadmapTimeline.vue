@@ -46,6 +46,7 @@ const phases: RoadmapPhase[] = [
     status: 'in_progress',
     items: [
       {text: '支持接入大模型，快速完成拍品改名/核对等复杂业务' },
+      {text: '支持消息推送，任务完成手机通知' },
       {text: '完善更多实用功能' },
       {text: 'windows端应用测试与优化' },
       {text: '日语页面优化补全' },

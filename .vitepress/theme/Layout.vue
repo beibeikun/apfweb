@@ -9,7 +9,7 @@ const Layout = DefaultTheme.Layout as DefineComponent
 <template>
   <Layout>
     <template #home-hero-after>
-      <p class="home-hero-disclaimer">*早期开发阶段预览，不代表最终版效果</p>
+      <p class="home-hero-disclaimer">*当前为早期预览版，核心功能已可商用，欢迎预约演示与定制</p>
     </template>
     <template #home-features-before>
       <div class="home-features-title-wrap">
