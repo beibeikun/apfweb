@@ -5,6 +5,13 @@
 }
 
 /* —— 首页 Hero：放大右侧 GUI、截图右对齐（标题/副标题沿用 VitePress 默认字号） —— */
+@media (max-width: 639px) {
+  .VPHero.has-image .image-src {
+    max-width: 150px !important;
+    max-height: 150px !important;
+  }
+}
+
 @media (min-width: 960px) {
   .VPHero.has-image .image {
     display: flex;
@@ -27,8 +34,8 @@
   }
 
   .VPHero.has-image .image-src {
-    max-width: 650px !important;
-    max-height: 650px !important;
+    max-width: 300px !important;
+    max-height: 300px !important;
   }
 }
 
@@ -45,8 +52,8 @@
   }
 
   .VPHero.has-image .image-src {
-    max-width: 320px !important;
-    max-height: 320px !important;
+    max-width: 200px !important;
+    max-height: 200px !important;
   }
 }
 

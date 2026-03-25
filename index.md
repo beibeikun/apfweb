@@ -38,3 +38,29 @@ features:
   - title: 跨平台兼容
     details: 原生支持 Windows + macOS，部署简单便捷。团队协同零障碍，彻底打破系统壁垒。
 ---
+
+<style>
+:root {
+  /* Hero 辉光层：使用与首页标题渐变一致的配色 */
+  --vp-home-hero-image-background-image: linear-gradient(
+    120deg,
+    #4f46e5 20%,
+    #06b6d4 55%,
+    #56dde7 90%
+  );
+  /* 官网风格的模糊辉光强度（默认移动端） */
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+</style>
