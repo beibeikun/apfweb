@@ -52,6 +52,10 @@ export default defineConfig({
   themeConfig: {
     logo: '/app_icon_master_1024.png',
 
+    search: {
+      provider: 'local',
+    },
+
     nav: [
       { text: '教程', link: '/tutorials/' },
       { text: '下载', link: '/download' },
