@@ -38,6 +38,46 @@ export default defineConfig({
     '专注拍卖业服务的图片管理工作流工具，赋能拍卖企业图片资产全面升级',
   base: '/apfweb/',
 
+  locales: {
+    root: {
+      label: '简体中文',
+      lang: 'zh-CN',
+      themeConfig: {
+        nav: [
+          { text: '教程', link: '/tutorials/' },
+          { text: '下载', link: '/download' },
+          { text: '路线图', link: '/roadmap' },
+          { text: '激活', link: '/activation' },
+          { text: '关于', link: '/about' },
+        ],
+        sidebar: {
+          '/tutorials/': tutorialSidebar,
+          '/activation': tutorialSidebar,
+          '/settings': tutorialSidebar,
+          '/rename-compress': tutorialSidebar,
+          '/organize-sort': tutorialSidebar,
+          '/selection-rename': tutorialSidebar,
+          '/archive': tutorialSidebar,
+          '/extract-main': tutorialSidebar,
+          '/image-verify': tutorialSidebar,
+          '/lot-query': tutorialSidebar,
+          '/warehouse-analysis': tutorialSidebar,
+          '/warehouse-delete': tutorialSidebar,
+          '/download': downloadSidebar,
+          '/roadmap': downloadSidebar,
+        },
+      },
+    },
+    ja: {
+      label: '日本語',
+      lang: 'ja-JP',
+      link: '/ja/',
+      themeConfig: {
+        nav: [{ text: 'ロードマップ', link: '/roadmap' }],
+      },
+    },
+  },
+
   head: [
     [
       'link',
@@ -54,31 +94,6 @@ export default defineConfig({
 
     search: {
       provider: 'local',
-    },
-
-    nav: [
-      { text: '教程', link: '/tutorials/' },
-      { text: '下载', link: '/download' },
-      { text: '路线图', link: '/roadmap' },
-      { text: '激活', link: '/activation' },
-      { text: '关于', link: '/about' },
-    ],
-
-    sidebar: {
-      '/tutorials/': tutorialSidebar,
-      '/activation': tutorialSidebar,
-      '/settings': tutorialSidebar,
-      '/rename-compress': tutorialSidebar,
-      '/organize-sort': tutorialSidebar,
-      '/selection-rename': tutorialSidebar,
-      '/archive': tutorialSidebar,
-      '/extract-main': tutorialSidebar,
-      '/image-verify': tutorialSidebar,
-      '/lot-query': tutorialSidebar,
-      '/warehouse-analysis': tutorialSidebar,
-      '/warehouse-delete': tutorialSidebar,
-      '/download': downloadSidebar,
-      '/roadmap': downloadSidebar,
     },
 
     socialLinks: [

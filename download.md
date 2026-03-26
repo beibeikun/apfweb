@@ -7,19 +7,19 @@ outline: deep
 
 # 客户端下载
 
-早期开发中，即将推出正式发布版，敬请期待。
+0.5.0_260326早期测试版现已发布
 
 ## Windows x64
 
 对应平台：win_x64
 
-[下载（win_x64）](https://github.com/beibeikun/apfweb/releases/latest/download/APF_win_x64.zip)
+[下载（win_x64）](https://github.com/beibeikun/apfweb/releases/download/0.5.0/Auction-Pic-Flow-0.5.0_260326-Setup.exe)
 
 ## macOS ARM64
 
 对应平台：mac_arm
 
-[下载（mac_arm）](https://github.com/beibeikun/apfweb/releases/latest/download/APF_mac_arm.zip)
+[下载（mac_arm）](https://github.com/beibeikun/apfweb/releases/download/0.5.0/Auction-Pic-Flow-0.5.0_260326.dmg)
 
 ## 安装与激活提示
 
