@@ -2,9 +2,6 @@
 title: 改名压缩
 outline: deep
 ---
-
-[返回目录](/tutorials/)
-
 # 改名压缩
 
 ## 作用简述

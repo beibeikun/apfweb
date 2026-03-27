@@ -2,9 +2,6 @@
 title: 拍品查询
 outline: deep
 ---
-
-[返回目录](/tutorials/)
-
 # 拍品查询
 
 ## 作用简述

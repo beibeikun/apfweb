@@ -2,9 +2,6 @@
 title: 图片校对
 outline: deep
 ---
-
-[返回目录](/tutorials/)
-
 # 图片校对
 
 ## 作用简述

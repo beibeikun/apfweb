@@ -2,9 +2,6 @@
 title: 提取主图
 outline: deep
 ---
-
-[返回目录](/tutorials/)
-
 # 提取主图
 
 ## 作用简述

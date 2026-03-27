@@ -2,9 +2,6 @@
 title: 整理排序
 outline: deep
 ---
-
-[返回目录](/tutorials/)
-
 # 整理排序
 
 ## 作用简述

@@ -3,8 +3,6 @@ title: 仓库分析
 outline: deep
 ---
 
-[返回目录](/tutorials/)
-
 # 仓库分析
 
 ## 作用简述

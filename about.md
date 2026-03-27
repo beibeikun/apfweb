@@ -3,9 +3,6 @@ title: 关于 APF
 description: 了解 AuctionPicFlow（APF）的定位、能力与支持方式
 outline: deep
 ---
-
-[返回首页](/)
-
 # 关于 AuctionPicFlow
 
 ## 我们在做什么
