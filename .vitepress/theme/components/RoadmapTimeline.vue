@@ -17,7 +17,7 @@ type RoadmapPhase = {
 
 const phases: RoadmapPhase[] = [
   {
-    period: '26 年 Q1 季度早期开发',
+    period: '26 年 Q1 季度早期开发 v0.1.0 - v0.2.0',
     title: '核心工作流与基础能力',
     status: 'shipped',
     items: [
@@ -29,7 +29,7 @@ const phases: RoadmapPhase[] = [
     ],
   },
   {
-    period: '26 年 Q1 季度测试版开发',
+    period: '26 年 Q1 季度测试版开发 v0.3.0',
     title: '实用工具与仓库管理',
     status: 'shipped',
     items: [
@@ -41,12 +41,21 @@ const phases: RoadmapPhase[] = [
     ],
   },
   {
+    period: '26 年 Q1 季度测试版开发 v0.4.0 - v0.6.0',
+    title: 'AI 工具引入与功能增强',
+    status: 'shipped',
+    items: [
+      {text: '支持接入大模型，辅助完成拍品核对等业务' },
+      {text: '支持消息推送，任务完成手机通知' },
+      {text: 'windows端应用测试与优化' },
+    ],
+  },
+  {
     period: '26 年 Q1 季度',
     title: '功能完善与测试',
     status: 'in_progress',
     items: [
-      {text: '支持接入大模型，快速完成拍品改名/核对等复杂业务' },
-      {text: '支持消息推送，任务完成手机通知' },
+      {text: '完善更多AI工具，快速完成拍品改名/修图等复杂业务' },
       {text: '完善更多实用功能' },
       {text: 'windows端应用测试与优化' },
       {text: '日语页面优化补全' },

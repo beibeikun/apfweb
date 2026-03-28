@@ -18,7 +18,7 @@ hero:
       text: 获取激活
       link: /activation
     - theme: alt
-      text: 使用教程
+      text: 使用文档
       link: /tutorials/
     - theme: alt
       text: 产品路线图

@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-// 1. 重新组织教程侧边栏，拆分为多个板块 (Groups)
+// 1. 重新组织文档侧边栏，拆分为多个板块 (Groups)
 const tutorialSidebar = [
   { text: '首页', link: '/tutorials/' }, 
   {
@@ -19,6 +19,16 @@ const tutorialSidebar = [
       { text: '改名压缩', link: '/rename-compress' },
       { text: '整理排序', link: '/organize-sort' },
       { text: '备份归档', link: '/archive' },
+    ]
+  },
+  {
+    text: 'AI工具',
+    collapsed: false,
+    items: [
+      { text: '图片检查', link: '/image-check' },
+      { text: '拍品鉴定', link: '/item-appraisal' },
+      { text: '辅助修正', link: '/auto-rectify' },
+      { text: '智能对话', link: '/ai-chat' },
     ]
   },
   {
@@ -45,7 +55,7 @@ const downloadSidebar = [
   {
     text: '快捷入口',
     items: [
-      { text: '使用教程首页', link: '/tutorials/' },
+      { text: '使用文档首页', link: '/tutorials/' },
       { text: '客户端下载', link: '/download' },
       { text: '产品路线图', link: '/roadmap' },
       { text: '激活密钥/许可证', link: '/activation' },
@@ -94,14 +104,14 @@ export default defineConfig({
           }
         },
         nav: [
-          { text: '教程', link: '/tutorials/' },
+          { text: '文档', link: '/tutorials/' },
           { text: '下载', link: '/download' },
           { text: '路线图', link: '/roadmap' },
           { text: '激活', link: '/activation' },
           { text: '关于', link: '/about' },
         ],
         sidebar: {
-          // 下面所有教程相关的路径都共用这个分组侧边栏
+          // 下面所有文档相关的路径都共用这个分组侧边栏
           '/tutorials/': tutorialSidebar,
           '/activation': tutorialSidebar,
           '/settings': tutorialSidebar,
@@ -109,6 +119,10 @@ export default defineConfig({
           '/organize-sort': tutorialSidebar,
           '/selection-rename': tutorialSidebar,
           '/archive': tutorialSidebar,
+          '/image-check': tutorialSidebar,
+          '/item-appraisal': tutorialSidebar,
+          '/auto-rectify': tutorialSidebar,
+          '/ai-chat': tutorialSidebar,
           '/extract-main': tutorialSidebar,
           '/image-verify': tutorialSidebar,
           '/lot-query': tutorialSidebar,
