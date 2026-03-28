@@ -2,7 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // 1. 重新组织文档侧边栏，拆分为多个板块 (Groups)
 const tutorialSidebar = [
-  { text: '首页', link: '/tutorials/' }, 
+  {
+    text: '简介',
+    collapsed: false,
+    items: [
+      { text: '什么是AuctionPicFlow', link: '/aboutapf' },
+      { text: '快速开始', link: '/tutorials/index' },
+    ]
+  },
   {
     text: '基础配置',
     collapsed: false,
@@ -112,7 +119,8 @@ export default defineConfig({
         ],
         sidebar: {
           // 下面所有文档相关的路径都共用这个分组侧边栏
-          '/tutorials/': tutorialSidebar,
+          '/aboutapf': tutorialSidebar,
+          '/tutorials/index': tutorialSidebar,
           '/activation': tutorialSidebar,
           '/settings': tutorialSidebar,
           '/rename-compress': tutorialSidebar,

@@ -1,9 +1,9 @@
 ---
-title: 使用文档
+title: 快速开始
 outline: deep
 ---
 
-# 首页
+# 快速开始
 
 > [!IMPORTANT] 版本时效性声明
 > 当前文档对应版本：`v0.3.0`
