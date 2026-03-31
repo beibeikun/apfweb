@@ -19,6 +19,13 @@ const tutorialSidebar = [
     ]
   },
   {
+    text: '工作流',
+    collapsed: false,
+    items: [
+      { text: '流程编排', link: '/workflow' },
+    ]
+  },
+  {
     text: '核心工具',
     collapsed: false,
     items: [
@@ -119,6 +126,7 @@ export default defineConfig({
         ],
         sidebar: {
           // 下面所有文档相关的路径都共用这个分组侧边栏
+          '/workflow': tutorialSidebar,
           '/aboutapf': tutorialSidebar,
           '/tutorials/index': tutorialSidebar,
           '/activation': tutorialSidebar,

@@ -19,7 +19,7 @@ hero:
       link: /activation
     - theme: alt
       text: 使用文档
-      link: /tutorials/
+      link: /aboutapf
     - theme: alt
       text: 产品路线图
       link: /roadmap
