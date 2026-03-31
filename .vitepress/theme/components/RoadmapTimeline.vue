@@ -18,14 +18,9 @@ type RoadmapPhase = {
 const phases: RoadmapPhase[] = [
   {
     period: '26 年 Q1 季度早期开发 v0.1.0 - v0.2.0',
-    title: '核心工作流与基础能力',
+    title: '基础架构搭建/核心工作流与基础能力',
     status: 'shipped',
     items: [
-      { text: '系统设置（路径、仓库、Excel 映射、压缩规则）', link: '/settings' },
-      { text: '改名压缩', link: '/rename-compress' },
-      { text: '整理排序', link: '/organize-sort' },
-      { text: '选中改名', link: '/selection-rename' },
-      { text: '备份归档', link: '/archive' },
     ],
   },
   {
@@ -33,11 +28,6 @@ const phases: RoadmapPhase[] = [
     title: '实用工具与仓库管理',
     status: 'shipped',
     items: [
-      { text: '提取主图', link: '/extract-main' },
-      { text: '图片校对', link: '/image-verify' },
-      { text: '拍品查询', link: '/lot-query' },
-      { text: '仓库分析', link: '/warehouse-analysis' },
-      { text: '拍品删除', link: '/warehouse-delete' },
     ],
   },
   {
@@ -45,13 +35,23 @@ const phases: RoadmapPhase[] = [
     title: 'AI 工具引入与功能增强',
     status: 'shipped',
     items: [
-      {text: '支持接入大模型，辅助完成拍品核对等业务' },
-      {text: '支持消息推送，任务完成手机通知' },
-      {text: 'windows端应用测试与优化' },
     ],
   },
   {
-    period: '26 年 Q1 季度',
+    period: '26 年 Q1 季度 v0.7.0',
+    title: '工作流系统引入与功能增强',
+    status: 'shipped',
+    items: [
+      {text: '全新可视化工作流系统引入' },
+      {text: '起始文件夹灵活配置' },
+      {text: '中间文件自动清理' },
+      {text: '上下文路径智能解析' },
+      {text: '参数与命名优化' },
+      {text: '各种bug修复`' },
+    ],
+  },
+  {
+    period: '26 年 Q2 季度',
     title: '功能完善与测试',
     status: 'in_progress',
     items: [
