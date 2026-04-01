@@ -4,21 +4,21 @@ outline: deep
 ---
 # 客户端下载
 
-# AuctionPicFlow v0.7.1-260401 发布
+# AuctionPicFlow v0.7.2-260401 发布
 
 > [!IMPORTANT] 早期测试版声明
-> 当前版本版本对应 `0.7.1_260401`。鉴于早期版本迭代极快，文档内容可能存在滞后、遗漏或表述不准之处。如遇功能差异，请以软件实际运行效果为准。
+> 当前版本版本对应 `0.7.2_260401`。鉴于早期版本迭代极快，文档内容可能存在滞后、遗漏或表述不准之处。如遇功能差异，请以软件实际运行效果为准。
 
 ---
 
 ### 下载地址
 
-* **Windows (x64)**：[点击下载 (.exe)](https://github.com/beibeikun/apfweb/releases/download/0.7.1/Auction-Pic-Flow-0.7.1_260401-Setup.exe)
-* **macOS (ARM64)**：[点击下载 (.dmg)](https://github.com/beibeikun/apfweb/releases/download/0.7.1/Auction-Pic-Flow-0.7.1_260401.dmg)
+* **Windows (x64)**：[点击下载 (.exe)](https://github.com/beibeikun/apfweb/releases/download/0.7.2/Auction-Pic-Flow-0.7.2_260401-Setup.exe)
+* **macOS (ARM64)**：[点击下载 (.dmg)](https://github.com/beibeikun/apfweb/releases/download/0.7.2/Auction-Pic-Flow-0.7.2_260401.dmg)
 
 ---
 
-### 0.7.1 Bug 修复与优化
+### 0.7.1 - 0.7.2 Bug 修复与优化
 
 #### Bug 修复
 
