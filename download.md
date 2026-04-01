@@ -4,21 +4,47 @@ outline: deep
 ---
 # 客户端下载
 
-# AuctionPicFlow v0.7.0-260330 发布
+# AuctionPicFlow v0.7.1-260401 发布
 
 > [!IMPORTANT] 早期测试版声明
-> 当前版本版本对应 `0.7.0_260330`。鉴于早期版本迭代极快，文档内容可能存在滞后、遗漏或表述不准之处。如遇功能差异，请以软件实际运行效果为准。
+> 当前版本版本对应 `0.7.1_260401`。鉴于早期版本迭代极快，文档内容可能存在滞后、遗漏或表述不准之处。如遇功能差异，请以软件实际运行效果为准。
 
 ---
 
 ### 下载地址
 
-* **Windows (x64)**：[点击下载 (.exe)](https://github.com/beibeikun/apfweb/releases/download/0.7.0/Auction-Pic-Flow-0.7.0_260330-Setup.exe)
-* **macOS (ARM64)**：[点击下载 (.dmg)](https://github.com/beibeikun/apfweb/releases/download/0.7.0/Auction-Pic-Flow-0.7.0_260330.dmg)
+* **Windows (x64)**：[点击下载 (.exe)](https://github.com/beibeikun/apfweb/releases/download/0.7.1/Auction-Pic-Flow-0.7.1_260401-Setup.exe)
+* **macOS (ARM64)**：[点击下载 (.dmg)](https://github.com/beibeikun/apfweb/releases/download/0.7.1/Auction-Pic-Flow-0.7.1_260401.dmg)
 
 ---
 
-### 新增功能与优化
+### 0.7.1 Bug 修复与优化
+
+#### Bug 修复
+
+1. **修复 EXIF 方向标签在压缩时丢失的问题**
+
+2. **修复 Windows 下非中文路径写图失败的问题**
+
+3. **修复手动定位模式下 `imwrite_color_unicode` 未导入导致 NameError 的问题**
+---
+
+#### 重大重构
+
+4. **挂轴画心检测算法全面重写**
+   - 原来的单一 Canny + 形态学闭合 + 轮廓检测方案被替换为**多策略级联检测管线**
+   - 新增大量单元测试覆盖各检测阶段
+
+---
+
+#### UI 优化
+
+5. **流程编排页布局与样式优化** 
+   - 左侧步骤面板改为分组卡片样式（起点 / 处理步骤 / 校对与参数），新增QSS 样式
+   - 页面描述文字改为可折叠的「显示详细说明」
+   - 画布背景色跟随明暗主题切换
+
+### 0.7.0新增功能与优化
 
 #### 1. 工作流（流程编排）系统增强
 * **可视化编排**：新增工作流侧栏分组与「流程编排」独立页面，支持可视化的 DAG（有向无环图）节点拖拽编排。
